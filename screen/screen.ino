@@ -35,28 +35,6 @@ SPIClass touchscreenSPI = SPIClass(VSPI);
 XPT2046_Touchscreen touchscreen(XPT2046_CS, XPT2046_IRQ);
 HardwareSerial SerialPort2 (2);
 
-int x, y, z;
-
-void printTouchToDisplay(int touchX, int touchY, int touchZ) {
-  // Очистка экрана TFT
-  tft.fillScreen(TFT_WHITE);
-  tft.setTextColor(TFT_BLACK, TFT_WHITE);
-
-  int centerX = SCREEN_WIDTH / 2;
-  int textY = 80;
- 
-  String tempText = "X = " + String(touchX);
-  tft.drawCentreString(tempText, centerX, textY, FONT_SIZE);
-
-  textY += 20;
-  tempText = "Y = " + String(touchY);
-  tft.drawCentreString(tempText, centerX, textY, FONT_SIZE);
-
-  textY += 20;
-  tempText = "Pressure  = " + String(touchZ);
-  tft.drawCentreString(tempText, centerX, textY, FONT_SIZE);
-}
-
 void setup() {
   Serial.begin(115200);
   SerialPort2.begin(115200, SERIAL_8N1, 16, 17);
