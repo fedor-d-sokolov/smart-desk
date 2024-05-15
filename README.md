@@ -6,11 +6,11 @@
 Плата в Arduino IDE: uPesy ESP32 Wroom DevKit
 
 Переопределенные пины в TFT_eSPI:
-- TFT_MISO 32
-- TFT_MOSI 13
-- TFT_SCLK 14
-- TFT_CS   15
-- TFT_DC    2 
-- TFT_RST   4 
-- FT_RST  12
-- TOUCH_CS 33 
+- TFT_MISO: GPIO32
+- TFT_MOSI: GPIO13
+- TFT_SCLK: GPIO14
+- TFT_CS: GPIO15
+- TFT_DC: GPIO2
+- TFT_RST: GPIO4
+- FT_RST: GPIO12
+- TOUCH_CS: GPIO33
