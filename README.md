@@ -6,7 +6,7 @@
 Плата в Arduino IDE: uPesy ESP32 Wroom DevKit
 
 Переопределенные пины в TFT_eSPI:
-- TFT_MISO: GPIO32
+- TFT_MISO: GPIO35
 - TFT_MOSI: GPIO13
 - TFT_SCLK: GPIO14
 - TFT_CS: GPIO15
