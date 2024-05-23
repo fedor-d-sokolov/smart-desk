@@ -4,6 +4,7 @@
 - [AHTxx](https://github.com/enjoyneering/AHTxx/blob/main/src/AHTxx.cpp)
 - [BitFrost librry for HC-SR04](https://github.com/jeremylindsayni/Bifrost.Arduino.Sensors.HCSR04)
 - [FastLED](https://github.com/FastLED/FastLED)
+  
 Плата в Arduino IDE: uPesy ESP32 Wroom DevKit
 
 Переопределенные пины в TFT_eSPI:
